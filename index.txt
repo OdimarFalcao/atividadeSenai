@@ -1,0 +1,20 @@
+git status: Este comando exibe o estado das alterações feitas no repositório. Ele mostra quais arquivos foram modificados, adicionados ou removidos desde a última confirmação.
+
+git add: Este comando é usado para adicionar alterações ao índice para prepará-las para a confirmação. Você pode especificar arquivos específicos ou usar git add . para adicionar todas as alterações.
+
+git commit: Este comando é usado para confirmar as alterações no repositório. Você precisa adicionar uma mensagem descritiva para cada confirmação, indicando o propósito das alterações.
+
+git push: Esse comando é usado para enviar as alterações locais para um repositório remoto. Ele é usado principalmente para enviar confirmações para um servidor remoto, como o GitHub.
+
+git checkout: Este comando é usado para alternar entre ramos ou restaurar arquivos de um estado anterior. Você pode usá-lo para criar novos ramos, alternar entre ramos existentes ou descartar alterações locais.
+
+git merge: Este comando é usado para mesclar as alterações de uma ramificação com outra. Ele combina as alterações de duas ramificações e cria um novo commit com as alterações combinadas.
+
+git pull: Este comando é usado para buscar e mesclar as alterações de um repositório remoto em seu repositório local. Ele recupera as alterações do repositório remoto e as mescla com o seu ramo atual.
+
+git remote: Este comando é usado para gerenciar conexões com repositórios remotos. Alguns subcomandos úteis incluem:
+
+git remote add <nome> <url>: Adiciona um novo repositório remoto.
+git remote -v: Lista os repositórios remotos configurados e suas URLs.
+git remote show <nome>: Exibe informações detalhadas sobre um repositório remoto específico.
+git remote remove <nome>: Remove um repositório remoto.
